@@ -1,0 +1,13 @@
+<h1>Welcome @Context.Session.GetString("FirstName")!</h1>
+    <p><a asp-action="/">Home</a> | Plan a Wedding 
+    <form asp-action="Logout" asp-controller="User" method="Post">
+        <button class="btn btn-primary">Logout</button>
+    </form>
+</div>
+@model Wedding
+<h1>@Model.Wedder1 & @Model.Wedder2 Wedding</h1>
+<p>Date: @Model.Date</p>
+<p>Guests: </p>
+<ul>
+    
+</ul>

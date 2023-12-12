@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    <h1>Welcome, Sign in or Register below!</h1>
+    <div class="d-flex">
+        @await Html.PartialAsync("_Register", new User())
+        @await Html.PartialAsync("_Login", new LogUser())
+    </div>
+</div>
+
+

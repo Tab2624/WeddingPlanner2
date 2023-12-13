@@ -31,7 +31,7 @@ public class Wedding
     public User? Creator {get; set;}
 
     // users that RSVP'd
-    public List<RSVP>?  UserRSVPs {get; set;}
+    public List<RSVP>  UserRSVPs {get; set;} = new();
 }
 
 public class DateMustBeInFutureAttribute : ValidationAttribute

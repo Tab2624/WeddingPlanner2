@@ -112,4 +112,23 @@ public class WeddingsController : Controller
 
         return View("ViewOne", OneWedding);
     }
+
+    [HttpPost("wedding/{weddingId}/RSVP")]
+    public IActionResult UserRSVP(int weddingId)
+    {
+        int UserId = (int)HttpContext.Session.GetInt32("UserId");
+        RSVP? existingRSVP =_context.RSVPs.FirstOrDefault(r => r.WeddingId == weddingId && r.UserId == UserId);
+        if (existingRSVP == null)
+        {
+            RSVP newRSVP = new() { UserId = UserId, WeddingId = weddingId };
+            _context.Add(newRSVP);
+        }
+        else
+        {
+            _context.Remove(existingRSVP);
+        }
+        _context.SaveChanges();
+        return Redirect(HttpContext.Request.Headers.Referer);
+    }
+
 }

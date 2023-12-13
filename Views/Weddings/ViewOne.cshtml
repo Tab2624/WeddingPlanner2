@@ -9,5 +9,8 @@
 <p>Date: @Model.Date</p>
 <p>Guests: </p>
 <ul>
-    
+@foreach(RSVP guest in Model.UserRSVPs)
+{
+<li>@guest.RSVPUser.FirstName @guest.RSVPUser.LastName</li>
+}
 </ul>

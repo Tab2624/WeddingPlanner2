@@ -20,6 +20,7 @@
     <tbody>
         @foreach (Wedding w in Model)
         {
+            bool RSVPd = w.UserRSVPs.Any(ul => ul.UserId == Context.Session.GetInt32("UserId"));
             <tr>
                 <td> <a asp-controller="Weddings" asp-action="ViewWedding" asp-route-weddingId="@w.WeddingId">@w.Wedder1 & @w.Wedder2</a></td>
                 <td>@w.Date</td>
@@ -28,6 +29,10 @@
                     {   
                         <form asp-action="DeleteWedding" asp-route-weddingId="@w.WeddingId" asp-controller="Weddings" method="Post">
                             <button class="btn btn-danger">Delete</button>
+                        </form>
+                    }else {
+                        <form asp-action="userRSVP" asp-controller="Weddings" asp-route-weddingId="@w.WeddingId" method="Post">
+                        <button  class="btn btn-warning">@(RSVPd? "UnRSVP" : "RSVP") </button>
                         </form>
                     }
                 </td>

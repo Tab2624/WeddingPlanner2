@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeddingPlanner2
 build_property.RootNamespace = WeddingPlanner2
-build_property.ProjectDir = C:\Users\timot\Desktop\CodingDojo\C#\FullStack\WeddingPlanner2\
+build_property.ProjectDir = /Users/timb/Documents/C#/WeddingPlanner2/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\timot\Desktop\CodingDojo\C#\FullStack\WeddingPlanner2
+build_property.MSBuildProjectDirectory = /Users/timb/Documents/C#/WeddingPlanner2
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/User/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcml2YWN5LmNzaHRtbA==
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/User/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/User/_Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfTG9naW4uY3NodG1s
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/User/_Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/User/_Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfUmVnaXN0ZXIuY3NodG1s
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/User/_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9fUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/Weddings/PlanWedding.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcUGxhbldlZGRpbmcuY3NodG1s
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/Weddings/PlanWedding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VkZGluZ3MvUGxhbldlZGRpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/Weddings/ViewOne.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcVmlld09uZS5jc2h0bWw=
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/Weddings/ViewOne.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VkZGluZ3MvVmlld09uZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/Weddings/Weddings.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcV2VkZGluZ3MuY3NodG1s
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/Weddings/Weddings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV2VkZGluZ3MvV2VkZGluZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/timot/Desktop/CodingDojo/C\#/FullStack/WeddingPlanner2/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-8id7hc5axs
+[/Users/timb/Documents/C\#/WeddingPlanner2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i2mopr8zwv

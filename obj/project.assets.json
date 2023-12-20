@@ -781,19 +781,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\timot\\.nuget\\packages\\": {}
+    "/Users/timb/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timot\\Desktop\\CodingDojo\\C#\\FullStack\\WeddingPlanner2\\WeddingPlanner2.csproj",
+      "projectUniqueName": "/Users/timb/Documents/C#/WeddingPlanner2/WeddingPlanner2.csproj",
       "projectName": "WeddingPlanner2",
-      "projectPath": "C:\\Users\\timot\\Desktop\\CodingDojo\\C#\\FullStack\\WeddingPlanner2\\WeddingPlanner2.csproj",
-      "packagesPath": "C:\\Users\\timot\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timot\\Desktop\\CodingDojo\\C#\\FullStack\\WeddingPlanner2\\obj\\",
+      "projectPath": "/Users/timb/Documents/C#/WeddingPlanner2/WeddingPlanner2.csproj",
+      "packagesPath": "/Users/timb/.nuget/packages/",
+      "outputPath": "/Users/timb/Documents/C#/WeddingPlanner2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\timot\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/timb/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -847,7 +847,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
       }
     }
   }

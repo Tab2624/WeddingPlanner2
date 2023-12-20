@@ -11,8 +11,8 @@ using WeddingPlanner2.Models;
 namespace WeddingPlanner2.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20231211234745_SecondMigration")]
-    partial class SecondMigration
+    [Migration("20231219175245_FirstMigration")]
+    partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -45,7 +45,7 @@ namespace WeddingPlanner2.Migrations
 
                     b.HasIndex("WeddingId");
 
-                    b.ToTable("RSVP");
+                    b.ToTable("RSVPs");
                 });
 
             modelBuilder.Entity("WeddingPlanner2.Models.User", b =>
@@ -91,7 +91,13 @@ namespace WeddingPlanner2.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<DateTime>("Date")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
                     b.Property<int>("UserId")
@@ -109,7 +115,7 @@ namespace WeddingPlanner2.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Wedding");
+                    b.ToTable("Weddings");
                 });
 
             modelBuilder.Entity("WeddingPlanner2.Models.RSVP", b =>
